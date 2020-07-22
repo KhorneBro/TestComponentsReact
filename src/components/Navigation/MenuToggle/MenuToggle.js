@@ -5,9 +5,9 @@ const MenuToggle = props => {
     const cls = [
         classes.MenuToggle,
         'fa'
-    ]
+    ];
     if (props.isOpen) {
-        cls.push('fa-times')
+        cls.push('fa-times');
         cls.push(classes.open)
     } else {
         cls.push('fa-bars')
@@ -19,6 +19,6 @@ const MenuToggle = props => {
             onClick={props.onToggle}
         />
     )
-}
+};
 
 export default MenuToggle

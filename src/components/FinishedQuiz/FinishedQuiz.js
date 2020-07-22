@@ -9,7 +9,7 @@ const FinishedQuiz = props => {
             total++
         }
         return total
-    }, 0)
+    }, 0);
 
     return (
         <div className={classes.FinishedQuiz}>

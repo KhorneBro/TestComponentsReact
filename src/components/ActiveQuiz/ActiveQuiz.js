@@ -12,13 +12,12 @@ const ActiveQuiz = props => (
             </span>
             <small>{props.answerNumber} from {props.quizLength}</small>
         </p>
-
         <AnswersList
+            state={props.state}
             answers={props.answers}
             onAnswerClick={props.onAnswerClick}
-            state={props.state}
         />
 
     </div>
-)
+);
 export default ActiveQuiz

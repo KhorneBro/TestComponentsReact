@@ -6,7 +6,7 @@ const Button = props => {
     const cls = [
         classes.Button,
         classes[props.type]
-    ]
+    ];
 
     return (
         <button
@@ -18,5 +18,5 @@ const Button = props => {
         </button>
     )
 
-}
+};
 export default Button
